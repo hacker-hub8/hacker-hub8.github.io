@@ -10,13 +10,14 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #ffffff;
 }
 
 a {
   color: #0563bb;
   text-decoration: none;
 }
+
 
 a:hover {
   color: #067ded;
@@ -42,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0563bb;
+  background: #26ff00;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -56,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #0678e3;
+  background: #000000;
   color: #fff;
 }
 
@@ -76,7 +77,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #2f2a2a;
 }
 
 #preloader:before {
@@ -84,7 +85,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
+  border: 6px solid #26ff00;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -140,7 +141,7 @@ h6 {
 @media (max-width: 991px) {
   #header {
     width: 300px;
-    background: #fff;
+    background: #26ff00;
     border-right: 1px solid #e6e9ec;
     left: -300px;
   }
@@ -221,7 +222,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   color: #fff;
-  background: #0563bb;
+  background: #26ff00;
 }
 
 .nav-menu a:hover span,
@@ -297,7 +298,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.2);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -310,18 +311,18 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #45505b;
+  color: #ffffff;
 }
 
 #hero p {
-  color: #45505b;
+  color: #ffffff;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: #0563bb;
+  color: #26ff00;
   letter-spacing: 1px;
 }
 
@@ -332,14 +333,14 @@ h6 {
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: #45505b;
+  color: #ffffff;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
 }
 
 #hero .social-links a:hover {
-  color: #0563bb;
+  color: #26ff00;
 }
 
 @media (max-width: 992px) {
@@ -348,8 +349,8 @@ h6 {
   }
 
   #hero h1 {
-    font-size: 32px;
-    line-height: 36px;
+    font-size: 60px;
+    line-height: 46px;
   }
 
   #hero p {
@@ -379,7 +380,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: #ffffff;
 }
 
 .section-title h2::before {
@@ -399,7 +400,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #26ff00;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -414,7 +415,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #728394;
+  color: #26ff00;
 }
 
 .about .content ul {
@@ -452,7 +453,7 @@ section {
   width: 100%;
   position: relative;
   text-align: center;
-  background: #fff;
+ 
 }
 
 .facts .count-box i {
@@ -475,7 +476,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #011426;
+  color: #26ff00;
 }
 
 .facts .count-box p {
@@ -502,7 +503,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #45505b;
+  color: #26ff00;
 }
 
 .skills .progress .skill .val {
@@ -529,7 +530,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #45505b;
+  color: #26ff00;
 }
 
 .resume .resume-item {
@@ -551,7 +552,7 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #f7f8f9;
+  background: #2f2a2a;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -1025,7 +1026,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #2f2a2a;
 }
 
 .contact .info i {
@@ -1034,7 +1035,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #eef7ff;
+  background: #2f2a2a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1066,12 +1067,12 @@ section {
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
   background: #0563bb;
-  color: #fff;
+  color: #2f2a2a;
 }
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: #2f2a2a;
 }
 
 .contact .php-email-form .form-group {

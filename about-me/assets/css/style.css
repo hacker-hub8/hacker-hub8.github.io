@@ -605,7 +605,8 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+  width: 300px;
+  height: 300px;
 }
 
 .portfolio #portfolio-flters {
@@ -828,7 +829,7 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  padding: 30px 10px 30px 10px;
+  padding: 60px 40px 60px 40px;
   transition: all ease-out 0.3s;
   background: #2f2a2a;
   box-shadow: 0px 5px 90px 0px #26ff00;
